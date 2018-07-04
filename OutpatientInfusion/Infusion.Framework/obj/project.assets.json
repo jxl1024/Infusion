@@ -1069,7 +1069,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "D:\\MyPackage": {},
-        "D:\\OutPatientInfusion\\OutpatientInfusion\\Packages": {},
+        "D:\\code\\Packages": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {

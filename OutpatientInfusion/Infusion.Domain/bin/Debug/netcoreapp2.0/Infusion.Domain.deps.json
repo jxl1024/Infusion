@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "a83eebbeb0d62cce8c9a2afda7a8a7f29d38b469"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Infusion.Domain/1.0.0": {
+        "dependencies": {
+          "Infusion.Common": "1.0.0"
+        },
+        "runtime": {
+          "Infusion.Domain.dll": {}
+        }
+      },
+      "Infusion.Common/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Infusion.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infusion.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infusion.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HM5APwXRtLQq9kvY+G9jl84T89Zf9IQ814EO7qQMGSZTpnJB1Agb6hm1DydXLPHGghbQBrIkRufFoISq9z26SA==",
+      "path": "infusion.common/1.0.0",
+      "hashPath": "infusion.common.1.0.0.nupkg.sha512"
+    }
+  }
+}

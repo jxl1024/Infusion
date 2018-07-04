@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Infusion.Common.Entities;
 using Infusion.DAL;
+using Infusion.Domain.Repository;
 using log4net;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,15 +17,18 @@ namespace Infusion.WebAPI.Controllers
     [ApiController]
     public class InfusionSeatController : ControllerBase
     {
+        // 日志
         private ILog log;
 
+        private readonly IInfusionSeatRepository _infusionSeatRepository;
         /// <summary>
         /// 通过构造函数注入日志
         /// </summary>
         /// <param name="hostingEnv"></param>
-        public InfusionSeatController(IHostingEnvironment hostingEnv)
+        public InfusionSeatController(IHostingEnvironment hostingEnv, IInfusionSeatRepository seatRepository)
         {
             this.log = LogManager.GetLogger(Startup.repository.Name, typeof(InfusionSeatController));
+            _infusionSeatRepository = seatRepository;
         }
 
         #region 获取所有输液室座位
@@ -34,10 +38,11 @@ namespace Infusion.WebAPI.Controllers
             List<InfusionSeat> listSeat = new List<InfusionSeat>();
             try
             {
-                using (var dbContext = new EFInfusionDbContext())
-                {
-                    listSeat = dbContext.InfusionSeats.ToList<InfusionSeat>();
-                }
+                //using (var dbContext = new EFInfusionDbContext())
+                //{
+                //    listSeat = dbContext.InfusionSeats.ToList<InfusionSeat>();
+                //}
+                listSeat = _infusionSeatRepository.GetAll();
             }
             catch (Exception ex)
             {

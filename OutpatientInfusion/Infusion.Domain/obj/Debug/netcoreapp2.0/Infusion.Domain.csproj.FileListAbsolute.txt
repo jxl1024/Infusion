@@ -1,0 +1,9 @@
+D:\code\OutpatientInfusion\Infusion.Domain\bin\Debug\netcoreapp2.0\Infusion.Domain.deps.json
+D:\code\OutpatientInfusion\Infusion.Domain\bin\Debug\netcoreapp2.0\Infusion.Domain.dll
+D:\code\OutpatientInfusion\Infusion.Domain\bin\Debug\netcoreapp2.0\Infusion.Domain.pdb
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.csproj.CoreCompileInputs.cache
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.AssemblyInfoInputs.cache
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.AssemblyInfo.cs
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.dll
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.pdb
+D:\code\OutpatientInfusion\Infusion.Domain\obj\Debug\netcoreapp2.0\Infusion.Domain.csprojResolveAssemblyReference.cache

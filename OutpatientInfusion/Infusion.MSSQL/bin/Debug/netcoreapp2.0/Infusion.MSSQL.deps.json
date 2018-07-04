@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "3316f97d1d9d675e37a80c538861495b2fe62f35"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Infusion.MSSQL/1.0.0": {
+        "dependencies": {
+          "Infusion.Common": "1.0.0",
+          "Infusion.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Infusion.MSSQL.dll": {}
+        }
+      },
+      "Infusion.Common/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Infusion.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Infusion.Domain/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Infusion.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infusion.MSSQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infusion.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HM5APwXRtLQq9kvY+G9jl84T89Zf9IQ814EO7qQMGSZTpnJB1Agb6hm1DydXLPHGghbQBrIkRufFoISq9z26SA==",
+      "path": "infusion.common/1.0.0",
+      "hashPath": "infusion.common.1.0.0.nupkg.sha512"
+    },
+    "Infusion.Domain/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h4Y0lYT4rwnG6yoAfqlgqaVO/MI4rbULGeplmPw6CdTrlr9pg7dhTU6Q6NzmAXgEf4RAgUaI9a/UP9aBYyFqtg==",
+      "path": "infusion.domain/1.0.0",
+      "hashPath": "infusion.domain.1.0.0.nupkg.sha512"
+    }
+  }
+}

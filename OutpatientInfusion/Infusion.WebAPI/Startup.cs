@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Infusion.Domain.Repository;
+using Infusion.MSSQL;
 using log4net;
 using log4net.Config;
 using log4net.Repository;
@@ -41,6 +43,9 @@ namespace Infusion.WebAPI
                 options.SerializerSettings.ContractResolver = new DefaultContractResolver();
                 options.SerializerSettings.DateFormatString = "yyyy-MM-dd";
             });
+
+            // 以单例模式注入
+            services.AddSingleton<IInfusionSeatRepository, InfusionSeatRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

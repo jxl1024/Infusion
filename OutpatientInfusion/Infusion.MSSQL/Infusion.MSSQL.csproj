@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infusion.Common" Version="1.0.0" />
+    <PackageReference Include="Infusion.DAL" Version="1.0.0" />
+    <PackageReference Include="Infusion.Domain" Version="1.0.0" />
+    <PackageReference Include="Infusion.Framework" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

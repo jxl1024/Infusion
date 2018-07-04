@@ -1,0 +1,6 @@
+D:\code\OutpatientInfusion\Infusion.MSSQL\bin\Debug\netcoreapp2.0\Infusion.MSSQL.deps.json
+D:\code\OutpatientInfusion\Infusion.MSSQL\bin\Debug\netcoreapp2.0\Infusion.MSSQL.dll
+D:\code\OutpatientInfusion\Infusion.MSSQL\obj\Debug\netcoreapp2.0\Infusion.MSSQL.csproj.CoreCompileInputs.cache
+D:\code\OutpatientInfusion\Infusion.MSSQL\obj\Debug\netcoreapp2.0\Infusion.MSSQL.AssemblyInfoInputs.cache
+D:\code\OutpatientInfusion\Infusion.MSSQL\obj\Debug\netcoreapp2.0\Infusion.MSSQL.AssemblyInfo.cs
+D:\code\OutpatientInfusion\Infusion.MSSQL\obj\Debug\netcoreapp2.0\Infusion.MSSQL.csprojResolveAssemblyReference.cache

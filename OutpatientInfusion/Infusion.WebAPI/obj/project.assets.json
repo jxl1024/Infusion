@@ -26,6 +26,15 @@
           "lib/netcoreapp2.1/Infusion.DAL.dll": {}
         }
       },
+      "Infusion.Domain/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/Infusion.Domain.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Infusion.Domain.dll": {}
+        }
+      },
       "Infusion.Framework/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -38,6 +47,21 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/Infusion.Framework.dll": {}
+        }
+      },
+      "Infusion.MSSQL/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Infusion.Common": "1.0.0",
+          "Infusion.DAL": "1.0.0",
+          "Infusion.Domain": "1.0.0",
+          "Infusion.Framework": "1.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Infusion.MSSQL.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Infusion.MSSQL.dll": {}
         }
       },
       "log4net/2.0.8": {
@@ -5003,6 +5027,16 @@
         "lib/netcoreapp2.1/Infusion.DAL.runtimeconfig.json"
       ]
     },
+    "Infusion.Domain/1.0.0": {
+      "sha512": "h4Y0lYT4rwnG6yoAfqlgqaVO/MI4rbULGeplmPw6CdTrlr9pg7dhTU6Q6NzmAXgEf4RAgUaI9a/UP9aBYyFqtg==",
+      "type": "package",
+      "path": "infusion.domain/1.0.0",
+      "files": [
+        "infusion.domain.1.0.0.nupkg.sha512",
+        "infusion.domain.nuspec",
+        "lib/netcoreapp2.0/Infusion.Domain.dll"
+      ]
+    },
     "Infusion.Framework/1.0.0": {
       "sha512": "f4+VPfNVnAFVJgOWpbBwRIcapJyEBdpr42iUZSDjT4jAG6KQ+CkvwN7xkazOjqtr9+go/IxjOuUkPWQF6eYuTg==",
       "type": "package",
@@ -5011,6 +5045,16 @@
         "infusion.framework.1.0.0.nupkg.sha512",
         "infusion.framework.nuspec",
         "lib/netcoreapp2.0/Infusion.Framework.dll"
+      ]
+    },
+    "Infusion.MSSQL/1.0.0": {
+      "sha512": "50XVxL1J7rJhOzohExElFn2bCUMvsol8KvEwMr7j0mOWz+SmzcFDf3vVhOqScX4HiFsf/R4dDvDq6tYYOzLglg==",
+      "type": "package",
+      "path": "infusion.mssql/1.0.0",
+      "files": [
+        "infusion.mssql.1.0.0.nupkg.sha512",
+        "infusion.mssql.nuspec",
+        "lib/netcoreapp2.1/Infusion.MSSQL.dll"
       ]
     },
     "log4net/2.0.8": {
@@ -13153,6 +13197,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Infusion.Common >= 1.0.0",
       "Infusion.DAL >= 1.0.0",
+      "Infusion.MSSQL >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -13191,7 +13236,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "D:\\MyPackage": {},
-        "D:\\OutPatientInfusion\\OutpatientInfusion\\Packages": {},
+        "D:\\code\\Packages": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
@@ -13213,6 +13258,10 @@
             "version": "[1.0.0, )"
           },
           "Infusion.DAL": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Infusion.MSSQL": {
             "target": "Package",
             "version": "[1.0.0, )"
           },

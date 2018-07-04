@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "bab2a5b33ab7950a3d563486603ca0343b44d90a"
+    "signature": "c996fc92e65eb4cf2a475049cde93fc41ef2d6f8"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
         "dependencies": {
           "Infusion.Common": "1.0.0",
           "Infusion.DAL": "1.0.0",
+          "Infusion.MSSQL": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
@@ -69,6 +70,17 @@
           "lib/netcoreapp2.1/Infusion.DAL.dll": {}
         }
       },
+      "Infusion.Domain/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Infusion.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Infusion.Domain.dll": {}
+        }
+      },
       "Infusion.Framework/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -83,6 +95,23 @@
         },
         "compile": {
           "lib/netcoreapp2.0/Infusion.Framework.dll": {}
+        }
+      },
+      "Infusion.MSSQL/1.0.0": {
+        "dependencies": {
+          "Infusion.Common": "1.0.0",
+          "Infusion.DAL": "1.0.0",
+          "Infusion.Domain": "1.0.0",
+          "Infusion.Framework": "1.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Infusion.MSSQL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Infusion.MSSQL.dll": {}
         }
       },
       "log4net/2.0.8": {
@@ -3799,12 +3828,26 @@
       "path": "infusion.dal/1.0.0",
       "hashPath": "infusion.dal.1.0.0.nupkg.sha512"
     },
+    "Infusion.Domain/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h4Y0lYT4rwnG6yoAfqlgqaVO/MI4rbULGeplmPw6CdTrlr9pg7dhTU6Q6NzmAXgEf4RAgUaI9a/UP9aBYyFqtg==",
+      "path": "infusion.domain/1.0.0",
+      "hashPath": "infusion.domain.1.0.0.nupkg.sha512"
+    },
     "Infusion.Framework/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-f4+VPfNVnAFVJgOWpbBwRIcapJyEBdpr42iUZSDjT4jAG6KQ+CkvwN7xkazOjqtr9+go/IxjOuUkPWQF6eYuTg==",
       "path": "infusion.framework/1.0.0",
       "hashPath": "infusion.framework.1.0.0.nupkg.sha512"
+    },
+    "Infusion.MSSQL/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-50XVxL1J7rJhOzohExElFn2bCUMvsol8KvEwMr7j0mOWz+SmzcFDf3vVhOqScX4HiFsf/R4dDvDq6tYYOzLglg==",
+      "path": "infusion.mssql/1.0.0",
+      "hashPath": "infusion.mssql.1.0.0.nupkg.sha512"
     },
     "log4net/2.0.8": {
       "type": "package",

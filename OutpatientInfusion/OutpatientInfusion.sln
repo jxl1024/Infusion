@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infusion.DAL", "Infusion.DA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infusion.Framework", "Infusion.Framework\Infusion.Framework.csproj", "{D2CCD0FA-F46F-438C-9679-1DC036314EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infusion.WebAPI", "Infusion.WebAPI\Infusion.WebAPI.csproj", "{87D41877-D849-4106-8D93-61DF8ECB5A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infusion.WebAPI", "Infusion.WebAPI\Infusion.WebAPI.csproj", "{87D41877-D849-4106-8D93-61DF8ECB5A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infusion.Domain", "Infusion.Domain\Infusion.Domain.csproj", "{8A72A712-3781-440A-BC9D-4F9EC10FD502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infusion.MSSQL", "Infusion.MSSQL\Infusion.MSSQL.csproj", "{BEA79682-3AEF-4392-AF63-08DD930B9E13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{87D41877-D849-4106-8D93-61DF8ECB5A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D41877-D849-4106-8D93-61DF8ECB5A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D41877-D849-4106-8D93-61DF8ECB5A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A72A712-3781-440A-BC9D-4F9EC10FD502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A72A712-3781-440A-BC9D-4F9EC10FD502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A72A712-3781-440A-BC9D-4F9EC10FD502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A72A712-3781-440A-BC9D-4F9EC10FD502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA79682-3AEF-4392-AF63-08DD930B9E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA79682-3AEF-4392-AF63-08DD930B9E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA79682-3AEF-4392-AF63-08DD930B9E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA79682-3AEF-4392-AF63-08DD930B9E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
