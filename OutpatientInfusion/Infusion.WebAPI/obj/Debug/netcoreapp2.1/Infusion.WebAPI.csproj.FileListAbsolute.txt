@@ -40,3 +40,4 @@ D:\code\OutpatientInfusion\Infusion.WebAPI\obj\Debug\netcoreapp2.1\Infusion.WebA
 D:\code\OutpatientInfusion\Infusion.WebAPI\obj\Debug\netcoreapp2.1\Infusion.WebAPI.RazorTargetAssemblyInfo.cache
 D:\code\OutpatientInfusion\Infusion.WebAPI\obj\Debug\netcoreapp2.1\Infusion.WebAPI.dll
 D:\code\OutpatientInfusion\Infusion.WebAPI\obj\Debug\netcoreapp2.1\Infusion.WebAPI.pdb
+D:\code\OutpatientInfusion\Infusion.WebAPI\obj\Debug\netcoreapp2.1\Infusion.WebAPI.csprojResolveAssemblyReference.cache
