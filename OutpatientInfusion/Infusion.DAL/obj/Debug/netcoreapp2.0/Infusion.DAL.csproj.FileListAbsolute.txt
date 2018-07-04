@@ -1,0 +1,10 @@
+D:\Infusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.0\Infusion.DAL.deps.json
+D:\Infusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.0\Infusion.DAL.dll
+D:\Infusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.0\Infusion.DAL.csproj.CoreCompileInputs.cache
+D:\Infusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.0\Infusion.DAL.AssemblyInfoInputs.cache
+D:\Infusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.0\Infusion.DAL.AssemblyInfo.cs
+D:\Infusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.0\Infusion.DAL.runtimeconfig.json
+D:\Infusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.0\Infusion.DAL.runtimeconfig.dev.json
+D:\Infusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.0\Infusion.DAL.pdb
+D:\Infusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.0\Infusion.DAL.dll
+D:\Infusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.0\Infusion.DAL.pdb

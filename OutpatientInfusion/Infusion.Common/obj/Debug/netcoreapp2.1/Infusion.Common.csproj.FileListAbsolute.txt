@@ -1,0 +1,8 @@
+D:\Infusion\OutpatientInfusion\Infusion.Common\bin\Debug\netcoreapp2.1\Infusion.Common.deps.json
+D:\Infusion\OutpatientInfusion\Infusion.Common\bin\Debug\netcoreapp2.1\Infusion.Common.dll
+D:\Infusion\OutpatientInfusion\Infusion.Common\bin\Debug\netcoreapp2.1\Infusion.Common.pdb
+D:\Infusion\OutpatientInfusion\Infusion.Common\obj\Debug\netcoreapp2.1\Infusion.Common.csproj.CoreCompileInputs.cache
+D:\Infusion\OutpatientInfusion\Infusion.Common\obj\Debug\netcoreapp2.1\Infusion.Common.AssemblyInfoInputs.cache
+D:\Infusion\OutpatientInfusion\Infusion.Common\obj\Debug\netcoreapp2.1\Infusion.Common.AssemblyInfo.cs
+D:\Infusion\OutpatientInfusion\Infusion.Common\obj\Debug\netcoreapp2.1\Infusion.Common.dll
+D:\Infusion\OutpatientInfusion\Infusion.Common\obj\Debug\netcoreapp2.1\Infusion.Common.pdb

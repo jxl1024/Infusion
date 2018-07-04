@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Infusion.Common</id>
+    <version>1.0.0</version>
+    <authors>Infusion.Common</authors>
+    <owners>Infusion.Common</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Infusion\OutpatientInfusion\Infusion.Common\bin\Debug\netcoreapp2.0\Infusion.Common.dll" target="lib\netcoreapp2.0\Infusion.Common.dll" />
+  </files>
+</package>
