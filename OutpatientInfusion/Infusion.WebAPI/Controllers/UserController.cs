@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Infusion.Common.Entities;
 using Infusion.DAL;
+using log4net;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters.Json;
@@ -15,6 +17,17 @@ namespace Infusion.WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private ILog log;
+
+        /// <summary>
+        /// 通过构造函数注入日志
+        /// </summary>
+        /// <param name="hostingEnv"></param>
+        public UserController(IHostingEnvironment hostingEnv)
+        {
+            this.log = LogManager.GetLogger(Startup.repository.Name, typeof(UserController));
+        }
+
         [HttpGet("{empNo}")]
         public string GetUser(string empNo)
         {
@@ -25,6 +38,7 @@ namespace Infusion.WebAPI.Controllers
                 {
                     // if(employee.Password.Equals(pwd))
                     //{
+                    log.Info("获取用户成功!");
                     return "成功";
                     //}
                     // else

@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using log4net;
+using log4net.Config;
+using log4net.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,9 +20,13 @@ namespace Infusion.WebAPI
 {
     public class Startup
     {
+        public static ILoggerRepository repository { get; set; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            repository = LogManager.CreateRepository("NETCoreRepository");
+            // 指定配置文件
+            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
         }
 
         public IConfiguration Configuration { get; }

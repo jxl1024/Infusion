@@ -3724,11 +3724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
+      "projectUniqueName": "D:\\code\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
       "projectName": "Infusion.DAL",
-      "projectPath": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
+      "projectPath": "D:\\code\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
       "packagesPath": "C:\\Users\\jiang\\.nuget\\packages\\",
-      "outputPath": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\obj\\",
+      "outputPath": "D:\\code\\OutpatientInfusion\\Infusion.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
