@@ -33,22 +33,18 @@ namespace Infusion.WebAPI.Controllers
 
         #region 获取所有输液室座位
         [HttpGet]
-        public List<InfusionSeat> GetAllInfusionSeat()
+        public JsonResult GetAllInfusionSeat()
         {
             List<InfusionSeat> listSeat = new List<InfusionSeat>();
             try
             {
-                //using (var dbContext = new EFInfusionDbContext())
-                //{
-                //    listSeat = dbContext.InfusionSeats.ToList<InfusionSeat>();
-                //}
                 listSeat = _infusionSeatRepository.GetAll();
             }
             catch (Exception ex)
             {
                 log.Error("获取输液室全部座位失败:" + ex.Message + "\r\n跟踪:" + ex.Source);
             }
-            return listSeat;
+            return new JsonResult(listSeat);
         }
         #endregion
 
@@ -60,12 +56,13 @@ namespace Infusion.WebAPI.Controllers
             bool tfSuccess = true;
             try
             {
-                using (var dbContext = new EFInfusionDbContext())
-                {
-                    // 设置状态为新增
-                    dbContext.Entry(infusionSeat).State = EntityState.Added;
-                    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
-                }
+                //using (var dbContext = new EFInfusionDbContext())
+                //{
+                //    // 设置状态为新增
+                //    dbContext.Entry(infusionSeat).State = EntityState.Added;
+                //    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
+                //}
+                tfSuccess = _infusionSeatRepository.Add(infusionSeat);
             }
             catch (Exception ex)
             {
@@ -83,11 +80,12 @@ namespace Infusion.WebAPI.Controllers
             bool tfSuccess = true;
             try
             {
-                using (var dbContext = new EFInfusionDbContext())
-                {
-                    dbContext.Entry(infusionSeat).State = EntityState.Modified;
-                    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
-                }
+                //using (var dbContext = new EFInfusionDbContext())
+                //{
+                //    dbContext.Entry(infusionSeat).State = EntityState.Modified;
+                //    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
+                //}
+                tfSuccess = _infusionSeatRepository.Modify(infusionSeat);
             }
             catch (Exception ex)
             {
@@ -99,22 +97,24 @@ namespace Infusion.WebAPI.Controllers
         #endregion
 
         #region 删除输液室座位
-        [HttpDelete("id")]
+        //[HttpDelete("{id}")]
+        [HttpDelete]
         public bool Delete(int id)
         {
             bool tfSuccess = true;
             try
             {
-                using (var dbContext = new EFInfusionDbContext())
-                {
-                    InfusionSeat infusionSeat = new InfusionSeat()
-                    {
-                        InfusionId = id
-                    };
-                    // 设置状态是删除
-                    dbContext.Entry(infusionSeat).State = EntityState.Deleted;
-                    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
-                }
+                //using (var dbContext = new EFInfusionDbContext())
+                //{
+                //    InfusionSeat infusionSeat = new InfusionSeat()
+                //    {
+                //        InfusionId = id
+                //    };
+                //    // 设置状态是删除
+                //    dbContext.Entry(infusionSeat).State = EntityState.Deleted;
+                //    tfSuccess = dbContext.SaveChanges() > 0 ? true : false;
+                //}
+                tfSuccess = _infusionSeatRepository.Delete(id);
             }
             catch (Exception ex)
             {

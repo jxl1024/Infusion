@@ -1,1 +1,6 @@
-2018-07-04 21:57:29,915 [8] INFO  Infusion.WebAPI.Controllers.UserController [(null)] - 获取用户成功!
+2018-07-06 13:38:09,682 [8] ERROR Infusion.WebAPI.Controllers.InfusionSeatController [(null)] - 删除输液室全部座位失败:Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+跟踪:Microsoft.EntityFrameworkCore.Relational
+2018-07-09 20:55:05,168 [10] ERROR Infusion.WebAPI.Controllers.InfusionSeatController [(null)] - 删除输液室全部座位失败:The method or operation is not implemented.
+跟踪:Infusion.MSSQL
+2018-07-09 21:30:39,005 [7] ERROR Infusion.WebAPI.Controllers.InfusionSeatController [(null)] - 新增输液室全部座位失败:The method or operation is not implemented.
+跟踪:Infusion.MSSQL
